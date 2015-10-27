@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head >
+	<link rel="icon" type="image/png" sizes="96x96" href="./images/Coding_App.png">
+    <meta charset="utf-8">
+    
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    
+<!--    My search keywords-->
+    <meta name="keyword" content="">
+
+
+    <style>
+        .no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(./images/Preloader.gif) center no-repeat #fff;
+}
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+    <script src="js/custom.js" type="text/javascript"></script>
+    
+    <script>
+        $(window).load(function() {
+            
+            var delayx = (function(){
+                            $(".se-pre-con").fadeOut("slow");
+                            
+                            
+                        });
+                        
+            setTimeout(delayx, 3000);
+		// Animate loader off screen
+		
+	});
+    </script>
+    
+    
+    
+    <title>x_x</title>
+
+    <!-- My Bootstrap import -->
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    
+<!--    My fonts-->
+    
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<!--     external effexts -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
+    
+    
+<!--     My CSS -->
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
+
+
+
+    
+    <link rel="stylesheet" type="text/css" href="css/custom.css"/>
+
+
+
+</head>
+
+<body  id="page-top" >
+    
+    
+    <div class="se-pre-con"></div>
+    
+    
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top" >
+        <div class="container-fluid">
+
+            
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="color:#FFF; border:none;">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="glyphicon glyphicon-th"></span>
+                    
+                </button>
+               
+                <a class="navbar-brand page-scroll" href="#">
+                    <img alt="our logo" id="mylogo" src="images/Coding_App.png"  style="max-height:30px;"/>
+                </a>
+            </div>
+
+
+            
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right" id="access" style="margin-right:15px;">
+                    <li>
+                        <a class="page-scroll"  href="#myhome">Home</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll"  href="#people">The Nerds</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll"  href="#project">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll"  href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll"  href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    
+    <script>
+        $(document).ready(function(){
+            var mydynamicarray=["Think...", "Code...", "Debug..."];
+           
+            
+            
+                var mytext=0;
+                
+               
+              
+                    {
+                        var delay1 = (function(){
+                            $("#mydynamictext").text(mydynamicarray[mytext]).fadeIn();
+                            mytext+=1;
+                            if (mytext>2)
+                                {
+                                    mytext=0;
+                                    
+                                }
+                            setTimeout(delay1, 1000);
+                        });
+                        
+                        setTimeout(delay1, 1000);
+                        
+                        
+                        
+                    }
+                    
+                    
+                
+                
+                
+            
+        
+    
+});
+    </script>
+
+    <header  id="myhome">
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1 class="text-shadow">Hello World!</h1>
+                <br><br><br>
+                <img src="images/codingclub.png"/ style="width:80%;">
+                <br><br><br>
+                <h3 id="mydynamictext">Code...</h4>
+                
+            </div>
+        </div>
+    </header>
+    
+
+
+    <section id="people" class="container">
+        
+       
+            <div class="col-sm-5 myheight tab-content" id="mytabresults" >  
+                
+
+                <div class="tab-pane fade in active" style="padding:7% 0 15% 0;">
+                 
+                    <h1 style=""><i>The world change on how we roll</i></h1>
+                
+                </div>
+
+                <div class="tab-pane fade" id="member1">
+                    <h3><b>About Us</b></h3>
+                    
+                    <h4><img src="images/ninja.png"/><br><br><br><br><br><br><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;His interests include Computer Vision, Machine Learning, Computer Graphics and Human Computer Interaction. He also loves travelling, playing badminton, designing apps for windows platform and also exploring new technical gadgets.</h4>
+                    <br><a href="http://sriraghu.weebly.com" target="_blank"><button id="myportfolio" type="button" class="btn btn-info">Portfolio</button></a>
+                </div>
+                
+                <div class="tab-pane fade" id="member2">
+                    <h3><b>About Us</b></h3>
+                    
+                    <h4><img src="images/myicon.png" /><br><br><br><br><br><br><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;For this guy coding is like a playing a game and is very much interested in overriding applications. His area of interest are web development, app development and UI/UX design. He is also interested in gaming and designing and very much dedicated to  graphics.</h4>
+                    <br><button id="myportfolio" type="button" class="btn btn-info">Portfolio</button>
+                </div>
+                
+                <div class="tab-pane fade" id="member3">
+                    <h3><b>About Us</b></h3>
+                    
+                    <h4><img src="images/Batman2.png" /><br><br><br><br><br><br><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</h4>
+                    <br><a href="http://ayushshrote.weebly.com/" target="_blank"><button id="myportfolio" type="button" class="btn btn-info">Portfolio</button></a>
+                </div>
+                
+                <div class="tab-pane fade" id="member4">
+                    <h3><b>About Us</b></h3>
+                    
+                    <h4><img src="images/superman.png" /><br><br><br><br><br><br><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;This guy is responsible for developing android based applications. He is currently working on an android app with which we will be able to make a query on health related problems in just a few seconds.</h4>
+                    <br><a href="http://bhaskarsaikiap.weebly.com/" target="_blank"><button id="myportfolio" type="button" class="btn btn-info">Portfolio</button></a>
+                </div>
+                
+                <div class="tab-pane fade" id="member5">
+                    <h3><b>About Us</b></h3>
+                    
+                    <h4><img src="images/iron-man.png" /><br><br><br><br><br><br><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</h4>
+                    
+                    <br><button id="myportfolio" type="button" class="btn btn-info">Portfolio</button>
+                </div>
+                
+                <div class="tab-pane fade" id="member6">
+                    <h3><b>About Us</b></h3>
+                    
+                    <h4><img src="images/captainAmerica.png" /><br><br><br><br><br><br><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;He is basically interested in Network security, but currently getting to know various fields in computer science and trying out them. His main language at present is python.</h4>
+                    <br><a href="http://vavinash.weebly.com" target="_blank"><button id="myportfolio" type="button" class="btn btn-info">Portfolio</button></a>
+                </div>
+                
+                <div class="tab-pane fade" id="member7">
+                    <h3><b>About Us</b></h3>
+                    
+                    <h4><img src="images/hulk.png" /><br><br><br><br><br><br><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;A fun loving guy always looking for a bit of adventure, is an aficionado of books, music and manga. He finds it thrilling to explore new topics and is searching for his main of interest.</h4>
+                    <br><button id="myportfolio" type="button" class="btn btn-info">Portfolio</button>
+                </div>
+                
+                <div class="tab-pane fade" id="member8">
+                    <h3><b>About Us</b></h3>
+                    
+                    <h4><img src="images/Spidey_1.png" /><br><br><br><br><br><br><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;He has been actively learning some coding languages and he likes to solve problems by programming. He has been in the organizing team of Amalthea (out technical summit). He also likes to listen to music, to know about random stuff, play basketball and to play computer games.</h4>
+                    <br><button id="myportfolio" type="button" class="btn btn-info">Portfolio</button>
+                </div>
+                
+                <div class="tab-pane fade" id="member9">
+                    <h3><b>About Us</b></h3>
+                    
+                    <h4><img src="images/thor.png" /><br><br><br><br><br><br><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;His area of interest include Machine Learning and Big Data Analysis, designing recommender systems, and app development. Apart from coding, he likes to play volleyball, travel a lot and a movie maniac. He is also working on some cool projects in colloboration with Coding Club.</h4>
+                    <br><a href="http://ssrohit.weebly.com" target="_blank"> <button id="myportfolio" type="button" class="btn btn-info">Portfolio</button></a>
+                </div>
+                
+                <div class="tab-pane fade" id="member10">
+                    <h3><b>About Us</b></h3>
+                    
+                    <h4><img src="images/thor.png" /><br><br><br><br><br><br><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;He is a movie buzz and keeps track of all the good movies and tv shows to watch. He also enjoys reading novels. Needless to say he also enjoys coding and also loves to teach and discuss stuff about coding with like minded enthusiasts.</h4>
+                    <br><a href="" target="_blank"> <button id="myportfolio" type="button" class="btn btn-info">Portfolio</button></a>
+                </div>
+                
+                
+                
+                
+               
+            </div>
+            <div class="col-sm-7 myheight" id="memberlist" >    
+                 
+                <h3><b>The Crew</b></h3>
+                <div class="row nav-tabs" id="content">
+
+                
+                    <article class="col-sm-3 myheight">
+                        
+                        
+                        
+                        <div class="thumb" >
+                            <a class="page-scroll" data-toggle="tab" href="#member1"><img src="images/raghu.jpg"></a>
+                        </div>
+                        <div class="details">
+                            <h4 >Raghu Malireddi</h4>
+                            <br>
+<!--                            <p class="field">State</p>    -->
+                        </div>
+                        
+                        
+                       
+                    </article>
+                    
+                    <article class="col-sm-3 myheight">
+                        
+                        
+                        
+                        <div class="thumb" >
+                            <a class="page-scroll" data-toggle="tab" href="#member2"><img src="images/ashim.jpg"></a>
+                        </div>
+                        <div class="details">
+                            <h4 >Ashim Rajkonwar</h4>
+                            <br>
+                        </div>
+                        
+                        
+                       
+                    </article>
+                    
+                    <article class="col-sm-3 myheight">
+                        
+                        
+                        
+                        <div class="thumb" >
+                            <a class="page-scroll" data-toggle="tab" href="#member3"><img src="images/shrote.jpg" class='img-rounded'></a>
+                        </div>
+                        <div class="details">
+                            <h4 >Ayush Shrote</h4>
+                            <br><br>
+                        </div>
+                        
+                        
+                       
+                    </article>
+                    
+                    <article class="col-sm-3 myheight">
+                        
+                        
+                        
+                        <div class="thumb" >
+                            <a class="page-scroll" data-toggle="tab" href="#member4"><img src="images/bhaskar.jpg"></a>
+                        </div>
+                        <div class="details">
+                            <h4 >Bhaskar Saikia</h4>
+                        </div>
+                        
+                        
+                       
+                    </article>
+                    
+                    <article class="col-sm-3 myheight">
+                        
+                        
+                        
+                        <div class="thumb" >
+                            <a class="page-scroll" data-toggle="tab" href="#member5"><img src="images/kshiteez.jpg"></a>
+                        </div>
+                        <div class="details">
+                            <h4 >Kshiteej Seth</h4>
+<!--                            <p class="field">Director</p>    -->
+                        </div>
+                        
+                        
+                       
+                    </article>
+                    
+                    <article class="col-sm-3 myheight" >
+                        
+                        
+                        
+                        <div class="thumb" >
+                            <a class="page-scroll" data-toggle="tab" href="#member6"><img src="images/abhinash.jpg"></a>
+                        </div>
+                        <div class="details">
+                            <h4 >Avinash Reddy</h4>
+<!--                            <p class="field">Director</p>    -->
+                        </div>
+                        
+                        
+                       
+                    </article>
+                    <article class="col-sm-3 myheight" >
+                        
+                        
+                        
+                        <div class="thumb" >
+                            <a class="page-scroll"  data-toggle="tab" href="#member7"><img src="images/himanshu.jpg"></a>
+                        </div>
+                        <div class="details">
+                            <h4 >Himanshu Chauhan</h4>
+<!--                            <p class="field">Director</p>    -->
+                        </div>
+                        
+                        
+                       
+                    </article>
+                    
+                    <article class="col-sm-3 myheight" >
+                        
+                        
+                        
+                        <div class="thumb" >
+                            <a class="page-scroll" data-toggle="tab" href="#member8"><img src="images/purvil.jpg"></a>
+                        </div>
+                        <div class="details">
+                            <h4 >Purvil</h4>
+                        </div>
+                        
+                        
+                       
+                    </article>
+                    
+                    <article class="col-sm-3 myheight" >
+                        
+                        
+                        
+                        <div class="thumb" >
+                            <a class="page-scroll" data-toggle="tab" href="#member9"><img  src="images/rohit.jpg"></a>
+                        </div>
+                        <div class="details">
+                            <h4 >Sai Rohit</h4>
+                        </div>
+                        
+                        
+                       
+                    </article>
+                    
+                    <article class="col-sm-3 myheight" >
+                        
+                        
+                        
+                        <div class="thumb" >
+                            <a class="page-scroll" data-toggle="tab" href="#member10"><img  src="images/pranav.jpg"></a>
+                        </div>
+                        <div class="details">
+                            <h4 >Pranav Kumar</h4>
+                        </div>
+                        
+                        
+                       
+                    </article>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                </div>
+                
+                
+                
+                
+               
+            </div>
+            
+        
+        
+    </section>
+
+
+
+
+
+    <section id="project" class="container">
+        
+            <div class="col-sm-7 myheight" id="projectlist" >    
+                 
+                <h3><b>Projects</b></h3>
+                <div class="row" id="content" style="" >
+
+                
+                    <article class="col-sm-3 myheight" >
+                        
+                        
+                        
+                        <div class="thumb" >
+                            <a class="page-scroll" data-toggle="tab" href="#project1"><img  src="images/icon_game.png"></a>
+                        </div>
+                        <div class="details">
+                            <h4 >Game Development</h4>
+                        </div>
+                        
+                        
+                       
+                    </article>
+                    
+                    <article class="col-sm-3 myheight">               
+                        <div class="thumb" >
+                            <a class="page-scroll" data-toggle="tab" href="#project2"><img  src="images/logo.png"></a>
+                        </div>
+                        <div class="details">
+                            <h4>Computer vision</h4>
+                            <br>
+                        </div>
+                    </article>
+                    
+                    <article class="col-sm-3 myheight">               
+                        <div class="thumb" >
+                            <a class="page-scroll" data-toggle="tab" href="#project3"><img  src="images/xConnect.png"></a>
+                        </div>
+                        <div class="details">
+                            <h4>xConnect</h4>
+                            <br><br>
+                        </div>
+                    </article>
+                    
+                    <article class="col-sm-3 myheight">               
+                        <div class="thumb" >
+                            <a class="page-scroll" data-toggle="tab" href="#project4"><img  src="images/android_icon.png"></a>
+                        </div>
+                        <div class="details">
+                            <h4 >App Development</h4>
+                        </div>
+                    </article>
+                    
+                    <article class="col-sm-3 myheight">               
+                        <div class="thumb" >
+                            <a class="page-scroll" data-toggle="tab" href="#project5"><img  src="images/analytcs.png"></a>
+                        </div>
+                        <div class="details">
+                            <h4 >Data analytics and machine earnning</h4>
+                        </div>
+                    </article>
+                    <article class="col-sm-3 myheight">               
+                        <div class="thumb" >
+                            <a class="page-scroll" data-toggle="tab" href="#project6"><img  src="images/feature-icon-1-170x170_on.png"></a>
+                        </div>
+                        <div class="details">
+                            <h4 >Programming 100</h4>
+                        </div>
+                    </article>
+                    
+                    
+                    
+     
+                    
+                </div>  
+               
+            </div>
+        
+        <div class="col-sm-5 myheight tab-content"  style=" font-family:'Josefin Sans'; color:black; text-align:center; font-size:50px;">  
+                
+
+                <div class="tab-pane fade in active" style="padding:9% 0 15% 0;">
+                 
+                    <h1 style=""><i>One step behind success</i></h1>
+                
+                </div>
+
+                <div class="tab-pane fade" id="project1">
+                    <h3><b>Description</b></h3>
+                    
+                    <h4><img src="images/code_icon.png" style="float:left; width:80px;"/><br><br><br><br><br><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>3D game development</b><br><br>
+This project is based on application of c# in game development with the use of game engines. Our aim is to expose ourselves to nuances of game development and implement the same to make a pretty good game.
+Members: Purvil Jani, Himanshu Chauhan.This Guy This project is based on application of c# in game development with the use of game engines. Our aim is to expose ourselves to nuances of game development and implement the same to make a pretty good game.
+Members: Purvil Jani, Himanshu Chauhan.<br><br><br>
+                        <b>2D game development</b><br><br>Developing a 2d game using Construct 2
+Construct 2 is a html-5 based game editor developed by Scirra.It can be used to make games for platforms such as windows 8/8.1,windows phone,android,facebook ,etc
+                    </h4>
+                </div>
+                
+                <div class="tab-pane fade" id="project2">
+                    <h3><b>Description</b></h3>
+                    
+                    <h4><img src="images/code_icon.png" style="float:left; width:80px;"/><br><br><br><br><br><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;We aim to develop android apps that deploy state of the art computer vision algorithms in your android smartphone</h4>
+                </div>
+                
+                
+                <div class="tab-pane fade" id="project3">
+                    <h3><b>Description</b></h3>
+                    
+                    <h4><img src="images/code_icon.png" style="float:left; width:80px;"/><br><br><br><br><br><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;It's an windows app which can be used to share your internet connected on your pc to other devices. The maximum number of connections can be in between 10 to 20 depending on your hardware specifications.</h4>
+                </div>
+                
+            
+                <div class="tab-pane fade" id="project4">
+                    <h3><b>Description</b></h3>
+                    
+                    <h4><img src="images/code_icon.png" style="float:left; width:80px;"/><br><br><br><br><br><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;We know that Health is Wealth. Everybody concern more about their health
+
+than anything else. But it is seen that sometimes a small disease can make a
+
+severe case due to lack of proper treatment of that particular disease. There
+
+are two reasons behind it. (1) People are very busy in today’s world. So they
+
+don’t want to go to Doctor for a disease like­ cold, cough etc. or (2) They
+
+don’t know the future problems which will be caused by these small
+
+symptoms.
+
+So if we can make such a system in which a person can check the probable
+
+disease which can be caused by the symptoms appearing in his body. In this
+
+‘app’ data of each and every disease according to their symptoms will be
+
+stored so that a person can easily find possibility of diseases regarding to the
+
+symptoms appeared in his body. There are many diseases which have
+
+several symptoms and there are various symptoms which are the indication
+
+of many diseases. So it will be stored each and every symptoms and disease
+
+by acquiring a good knowledge in the field of medical department.
+
+One can check it in Google also. But it will be easier if an app installed in his
+
+android phone. Because, Google and other browsers depends on network
+
+and internet connection. This app will be made mainly for that specific
+
+purpose only. So it can help the people quickly to converse with an idea
+
+about his disease.</h4>
+                </div>
+                
+                
+                
+               
+            </div>
+        
+    </section>
+    
+    
+    <section id="contact" class="bg-dark">
+
+            <div class="row" style="width:100%;">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <hr class="primary">
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a class="btn btn-social-icon btn-lg btn-facebook" style="margin:right:10px;" href="#">
+                            <i class="fa fa-facebook"></i>
+                    </a>
+                    <a style="margin:right:10px"></a>
+<a class="btn btn-social-icon btn-lg btn-linkedin" href="#">
+                            <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a class="btn btn-social-icon btn-lg btn-twitter" href="#">
+                            <i class="fa fa-twitter"></i>
+                    </a>
+                <p style="color:#009FC7;margin-top:20px" ><i class="fa fa-phone wow bounceIn" style="vertical-align:middle; margin-left:10px;color:#2196F3" data-wow-delay=".1s"></i><span style="color:#FFFFFF">+91-xxxxxxxxxx</span></p>
+                <p style="color:#009FC7; margin-top:-20px" ><i id="emaili" class="fa fa-envelope-o fa-1x wow bounceIn" style="vertical-align:middle;margin-right:5px; color:#2196F3" data-wow-delay=".1s"></i><span style="color:#FFFFFF">codingclub@iitgn.ac.in</span></p>
+                </div>
+           
+            </div>
+    </section>
+    
+
+    <!-- jQuery -->
+<!--
+
+    My google analytics here
+-->
+
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js" type="text/javascript"></script>
+    <script src="js/jquery.fittext.js" type="text/javascript"></script>
+    <script src="js/wow.min.js" type="text/javascript"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/creative.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    
+</script>
+
+</body>
+
+</html>

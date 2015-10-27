@@ -1,0 +1,265 @@
+
+
+.text-shadow 
+{
+    text-shadow: 3px 1px 3px rgba(0, 0, 0, 1);
+}   
+
+
+#people
+{
+    background-color:#F0F0F0; 
+    width:100%;
+}
+
+#people #mytabresults
+{
+    font-family:'Josefin Sans'; 
+    color:black; 
+    text-align:center; 
+    font-size:50px;
+}
+
+#people #mytabresults div h3
+{
+    border-bottom:solid; 
+    text-align:left; 
+    margin-left:20%;
+}
+
+#people #mytabresults div h4
+{
+    margin-left:20%; 
+    text-align:left; 
+}
+#people #mytabresults div h4 img
+{
+    float:left; 
+    height:137px;
+}
+
+#people #memberlist
+{
+    font-family:sans-serif;
+}
+
+#people #memberlist h3
+{
+    border-bottom:solid; 
+    text-align:left; 
+    margin-left:5%; 
+    margin-right:10%; 
+    color:black; 
+    border-color:black;
+}
+
+#people #memberlist #content
+{
+    width:100%; 
+    margin-left:0%; 
+    padding-left:4%;
+}
+
+#people #memberlist #content article
+{
+    width: 28%; 
+    border-radius: 200px; 
+    background-size: 100% auto; 
+    text-align:center;
+    color:black;
+}
+
+.thumb
+{
+    border:solid;
+    border-radius:200px; 
+    overflow: hidden;
+    border-width:4px;
+    
+}
+.thumb img
+{
+    border-radius:200px;
+    width: 100%;
+    transition: 0.7s;
+    -webkit-transition:0.7s;
+
+}
+
+#people #memberlist #content article .thumb
+{
+    border-color: #fff;
+    transition: 0.4s;
+    -webkit-transition:0.4s;
+}
+
+
+.details 
+{
+    margin-top:-6px;
+}
+
+.field
+{
+    margin-top: -9px;
+}
+
+
+#people #memberlist #content article .thumb a:hover img
+{
+    -webkit-filter: grayscale(1);
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: url(#greyscale);
+  filter: gray;
+}
+
+#people #memberlist #content article .thumb:hover
+{
+    border-color:#FF5722;
+}
+
+
+#people #memberlist #content article .mycutomBorderActive
+{
+    border-color:#FF5722;
+}
+
+#people #memberlist #content article .mycutomBorderActive a img
+{
+     -webkit-filter: grayscale(1);
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: url(#greyscale);
+  filter: gray;
+}
+
+#myportfolio
+{
+    background-color: #FF5722;
+    border-radius: 2px;
+    float: right;
+    border:solid;
+    border-width: 1px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    
+}
+
+#myportfolio:hover
+{
+    background-color: transparent;
+    color:#FF5722;
+}
+
+
+#project
+{
+    background-color:#075D2C; 
+    width:100%;
+}
+
+#project #projectlist
+{
+    font-family:sans-serif;
+
+}
+
+#project #projectlist h3
+{
+    border-bottom:solid; 
+    text-align:left; 
+    margin-left:5%; 
+    margin-right:10%; 
+    color:#fff; 
+    border-color:#fff;
+}
+#project #projectlist #content
+{
+    width:100%; 
+    margin-left:0%; 
+    padding-left:4%;
+    text-align: center;
+    align-items: center;
+}
+
+#project #projectlist #content article
+{
+    width: 28%; 
+    border-radius: 200px; 
+    background-size: 100% auto; 
+    text-align:center;
+    color: #fff;
+}
+
+#project #projectlist #content .thumb
+{
+    border-color: #fff;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+}
+
+#project #projectlist #content .thumb:hover
+{
+    border-color: #FF5722;
+}
+
+#project #projectlist #content article .mycutomBorderActive
+{
+    border-color: #FF5722;
+    
+}
+
+#project .myheight div h1
+{
+    color: #fff;
+}
+
+#project .myheight div h3
+{
+    border-bottom:solid; 
+    text-align:left; 
+    margin-right:20%;
+    color: #fff;
+}
+
+#project .myheight div h4
+{
+    
+    text-align:left; 
+    color: #fff;
+}
+
+
+@media (max-width: 767px){
+    #memberlist .row article
+    {
+        float: left;
+    }
+    
+    #memberlist #content
+    {
+        margin-left: 5%;
+    }
+    #projectlist .row article
+    {
+        float: left;
+    }
+    #people #mytabresults div h3
+    {
+        margin-left: 6%;
+    }
+}
+
+@media (max-width: 976px)
+{
+    #memberlist .row article div h4
+    {
+        font-size: 15px;
+    }
+    #projectlist .row article div h4
+    {
+        font-size: 15px;
+    }
+    
+}
